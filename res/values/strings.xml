@@ -153,6 +153,6 @@
     <string name="ongoing_channel_title">Ongoing downloads</string>
     <string name="update_failed_channel_title">Update failed</string>
 
-    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/Spark-Rom/official_devices/changelogs/{device}.txt</string>
+    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/Spark-Rom/official_devices/master/changelogs/{device}.txt</string>
     <string name="changelog_fail">Failed to retrieve changelog</string>
 </resources>
