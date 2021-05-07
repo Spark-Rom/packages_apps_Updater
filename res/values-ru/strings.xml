@@ -39,7 +39,7 @@
 
 
     <string name="update_button">Проверить обновление</string>
-    <string name="pause_button">Паузка</string>
+    <string name="pause_button">Пауза</string>
     <string name="resume_button">Продолжить</string>
     <string name="suspend_button">Приостановить</string>
 
