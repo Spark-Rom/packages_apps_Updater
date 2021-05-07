@@ -88,7 +88,7 @@
 
     <string name="action_download">Загрузить</string>
     <string name="action_pause">Пауза</string>
-    <string name="action_resume">Продолэить</string>
+    <string name="action_resume">Продолжить</string>
     <string name="action_install">Установить</string>
     <string name="action_info">Информация</string>
     <string name="action_delete">Удалить</string>
