@@ -105,7 +105,7 @@
     <string name="cancel_installation_dialog_message">Отменить установку?</string>
 
     <string name="label_download_url">Ссылка для скачивания</string>
-    <string name="toast_download_url_copied">Ссыдка скопирована</string>
+    <string name="toast_download_url_copied">Ссылка скопирована</string>
 
     <string name="dialog_export_title">Экспорт обновления</string>
     <string name="notification_export_success">Обновление экспортировано</string>
