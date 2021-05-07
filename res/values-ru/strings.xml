@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Обновление системы</string>
+    <string name="display_name">Обновление системы</string>
+
+
+    <!--
+        Optional placeholders replaced at runtime:
+          {device} - Device name
+          {type} - Build type
+    -->
+
+    <string name="verification_failed_notification">Ошибка проверки</string>
+    <string name="verifying_download_notification">Проверка обновления</string>
+    <string name="downloading_notification">Загрузка</string>
+    <string name="download_paused_notification">Загрузка приостановлена</string>
+    <string name="download_paused_error_notification">Ошибка загрузки</string>
+    <string name="download_completed_notification">Загрузка завершена</string>
+    <string name="download_starting_notification">Загрузка началась</string>
+    <string name="update_failed_notification">Ошибка обновления</string>
+    <string name="installation_suspended_notification">Установка приостановлена</string>
+
+    <string name="new_updates_found_title">Новое обновление</string>
+
+
+    <string name="update_button">Проверить обновление</string>
+    <string name="pause_button">Паузка</string>
+    <string name="resume_button">Продолжить</string>
+    <string name="suspend_button">Приостановить</string>
+
+    <string name="installing_update">Установка обновдения</string>
+    <string name="installing_update_error">Ошибка установки</string>
+    <string name="installing_update_finished">Обновление установлено</string>
+    <string name="finalizing_package">Завершение установки обновления</string>
+    <string name="preparing_ota_first_boot">Подготовка к первой загрузке</string>
+    <string name="dialog_prepare_zip_message">Предварительная подготовка к обновлению</string>
+    <string name="dialog_battery_low_title">Низкий заряд батареи</string>
+    <string name="dialog_battery_low_message_pct">Уровень заряда батареи слишком низкий, для продолжения необходимо хотя бы <xliff:g id="percent_discharging">%1$d</xliff:g>%% батареи, или <xliff:g id="percent_charging">%2$d</xliff:g>%% во время зарядки.</string>
+
+    <string name="reboot">Перезагрузка</string>
+
+    <string name="menu_refresh">Обновить</string>
+    <string name="menu_preferences">Параметры</string>
+    <string name="menu_auto_updates_check">Автоматическая проверка обновлений</string>
+    <string name="menu_auto_updates_check_interval_daily">Раз в день</string>
+    <string name="menu_auto_updates_check_interval_weekly">Раз в неделю</string>
+    <string name="menu_auto_updates_check_interval_monthly">Раз в месяц</string>
+    <string name="menu_auto_updates_check_interval_never">Никогда</string>
+    <string name="menu_auto_delete_updates">Удалять обновления при установке</string>
+    <string name="menu_delete_update">Удалить</string>
+    <string name="menu_copy_url">Скопировать ссылку</string>
+    <string name="menu_export_update">Экспорт обновления</string>
+    <string name="menu_show_changelog">Показать список изменений</string>
+    <string name="menu_update_recovery">Обновить рекавери</string>
+    <string name="toast_forced_update_recovery">Невозможно отключить обновления рекавери Spark на этом устройстве.</string>
+
+    <string name="snack_updates_found">Доступно новое обновление</string>
+    <string name="snack_no_updates_found">Ваша система обновлена</string>
+    <string name="snack_updates_check_failed">Не удалось проверить наличие обновлений</string>
+
+    <string name="snack_download_failed">Не удалось загрузить</string>
+    <string name="snack_download_verification_failed">Ошибка проверки</string>
+    <string name="snack_download_verified">Загрузка завершена</string>
+
+    <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей версии прошивки.</string>
+
+    <string name="header_title_text">SparkOS</string>
+    <string name="header_android_version">Версия Android: <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
+    <string name="header_security_patch">Обновление патча безопасности: <xliff:g id="patch" example="January 5 2019">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">Последняя успешная проверка обновления была: <xliff:g id="time" example="01:23">%1$s</xliff:g></string>
+
+    <string name="list_verifying_update">Проверка обновления</string>
+
+    <string name="action_download">Загрузить</string>
+    <string name="action_pause">Пауза</string>
+    <string name="action_resume">Продолэить</string>
+    <string name="action_install">Установить</string>
+    <string name="action_info">Информация</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_changelog">Список изменений</string>
+
+    <string name="confirm_delete_dialog_title">Удалить файл</string>
+    <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
+
+    <string name="apply_update_dialog_title">Применить обновление</string>
+    <string name="apply_update_dialog_message">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g>, устройство будет перезапущено и переведено в рекавери для установки новой версии.\n\nПримечание: для этой функции необходим совместимое рекавери. При возникновении ошибки потребуется установить обновление вручную.</string>
+    <string name="apply_update_dialog_message_ab">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g>, будет начата установка в фоновом режиме.\n\nПо завершении вам будет предложено перезапустить устройство.</string>
+
+    <string name="cancel_installation_dialog_message">Отменить установку?</string>
+
+    <string name="label_download_url">Ссылка для скачивания</string>
+    <string name="toast_download_url_copied">Ссыдка скопирована</string>
+
+    <string name="dialog_export_title">Экспорт обновления</string>
+    <string name="notification_export_success">Обновление экспортировано</string>
+    <string name="notification_export_fail">Ошибка экспорта</string>
+    <string name="toast_already_exporting">Экспорт обновления уже выполняется</string>
+
+    <plurals name="eta_seconds">
+        <item quantity="one">Осталась 1 секунда</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> секунд(ы) осталось</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">Осталась 1 минута</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> минут(ы) осталось</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">Остался 1 час</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> часа(ов) осталось</item>
+    </plurals>
+
+    <string name="update_on_mobile_data_title">Предупреждение</string>
+    <string name="update_on_mobile_data_message">Скачивание обновления с помощью мобильных данных расходует большой объём трафика и может привести к большим расходам. Продолжить?</string>
+    <string name="checkbox_mobile_data_warning">Больше не показывать</string>
+    <string name="menu_mobile_data_warning">Предупреждать о мобильных данных</string>
+
+    <string name="blocked_update_dialog_title">Обновление заблокировано</string>
+    <string name="blocked_update_dialog_message">Это обновление не может быть установлено с помощью приложения Обновления системы.</string>
+
+    <string name="export_channel_title">Экспорт завершен</string>
+    <string name="new_updates_channel_title">Новое обновление</string>
+    <string name="ongoing_channel_title">Текущие загрузки</string>
+    <string name="update_failed_channel_title">Ошибка обновления</string>
+
+    <string name="changelog_fail">Не удалось получить список изменений</string>
+</resources>
